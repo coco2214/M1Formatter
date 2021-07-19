@@ -13,7 +13,7 @@
     width: 20%;
  }
 
-.form button{
+button{
     background:#CF0010;
     border: none;
     color: #FFFFFF;
@@ -25,4 +25,12 @@
  table{
    width: 100%;
    border-collapse: collapse;
+   margin-top: 200px;
  } 
+
+
+ textarea {
+  width: 300px;
+  height: 15em;
+  float: left;
+  }
