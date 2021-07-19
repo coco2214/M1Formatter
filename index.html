@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <title>M-1フォーマット</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="format.js"></script>
-  </head>
+
+<head>
+  <meta charset="UTF-8">
+  <title>M-1フォーマット</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="format.js"></script>
+</head>
 
 
-  <body>
+<body>
+  <div>
     <div class="form">
-      <textarea type="text" id="success-area"></textarea>
-      <button onclick="enter()">判定</button>
+      <textarea type="text" id="success-area" placeholder="ここに通過者一覧をペースト ※空白の行が無いように1組ごとに改行してください
+  例)
+  空気階段
+  ジャルジャル
+  ニューヨーク"></textarea>
     </div>
 
     <div class="form">
-      <textarea type="text" id="all-area"></textarea>
+      <textarea type="text" id="all-area" placeholder="ここに出場者一覧をペースト ※空白の行が無いように1組ごとに改行してください
+  例)
+  滝音
+  GAG
+  ロングコートダディ
+  空気階段
+  ジャルジャル
+  ザ・ギース
+  うるとらブギーズ
+  ニッポンの社長
+  ニューヨーク
+  ジャングルポケット"></textarea>
     </div>
 
-    <div id="table">
-    </div>
-    
-  </body>
+    <button onclick="enter()">判定</button>
+
+  </div>
+
+
+  <div id="table">
+  </div>
+
+</body>
 
 
 
